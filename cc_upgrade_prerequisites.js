@@ -953,6 +953,7 @@ var blacklist = [
 ];
 
 var recommendationBlacklist = [
+  84, // blacklist elder covenant from being included in the recommendationList
   227, // blacklist chocolate egg from being included in the recommendationList
   331, // blacklist golden switch from being included in the recommendationList
   332, // blacklist golden switch from being included in the recommendationList
