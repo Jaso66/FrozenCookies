@@ -48,7 +48,7 @@ FrozenCookies.preferenceValues = {
     default: 0,
   },
   autoMaxBuy: {
-    hint: "Hit's buy all a couple of times at the start of reincarnation",
+    hint: "Automatically buy all upgrades in bulk",
     display: ["Auto MaxBuy OFF", "Auto MaxBuy ON"],
     default: 0,
   },
