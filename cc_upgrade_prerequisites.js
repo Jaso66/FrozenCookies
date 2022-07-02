@@ -954,7 +954,7 @@ var blacklist = [
 
 var recommendationBlacklist = [
   227, // blacklist chocolate egg from being included in the recommendationList
-  331,
+  331, // blacklist golden switch from being included in the recommendationList
   332, // blacklist golden switch from being included in the recommendationList
   333, // blacklist milk selector from being included in the recommendationList
   361, // blacklist golden cookie sound selector from being included in the recommendationList
@@ -962,6 +962,7 @@ var recommendationBlacklist = [
   452, // blacklist sugar frenzy from being included in the recommendationList
   563,
   564, // blacklist shimmering veil from being included in the recommendationList
+  765, // blacklist jukebox from being included in the recommendationList
 ];
 
 var seasons = ["", "fools", "christmas", "easter", "halloween", "valentines"];

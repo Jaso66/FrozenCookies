@@ -10,19 +10,19 @@ https://discord.gg/Cpw8csuypT
 ## How to use
 
 ## Steam Install
-1. Download https://icehawk78.github.io/FrozenCookies/Steam/SteamMod.zip and extract it to your mods/local folder.
+1. Download https://jaso66.github.io/FrozenCookies/Steam/SteamMod.zip and extract it to your mods/local folder.
 2. Load up Cookie Clicker via Steam.
 
 ## Bookmarklet install
 
-1. Paste the _contents_ (not the url) of https://icehawk78.github.io/FrozenCookies/fc_bookmarklet_loader.js into a bookmark.
+1. Paste the _contents_ (not the url) of https://jaso66.github.io/FrozenCookies/fc_bookmarklet_loader.js into a bookmark.
 2. Load up Cookie Clicker.
 3. Load the recently created bookmark.
 
 ## Userscript install
 
 0. If you don't already have it, install the required browser add-on. [Tampermonkey (Chrome)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) or [Greasemonkey (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
-1. Go to https://icehawk78.github.io/FrozenCookies/fc_userscript_loader.user.js
+1. Go to https://jaso66.github.io/FrozenCookies/fc_userscript_loader.user.js
 2. Click the 'install' button in the upper right corner.
 3. Load up Cookie Clicker.
 
