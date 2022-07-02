@@ -27,6 +27,12 @@ function registerMod(mod_id = "frozen_cookies") {
             document.getElementById("storeBulk100").click();
           }
         }
+        if (FrozenCookies.autoMaxBuy != 0) {
+          for (let i = 0; i < 5; i++) {
+            document.getElementById("storeBuyAllButton").click();
+            sleep(1);
+          }
+        }
       });
       Game.registerHook("draw", updateTimers); // called every draw tick
       Game.registerHook("ticker", function () {

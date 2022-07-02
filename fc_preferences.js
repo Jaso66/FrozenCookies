@@ -47,6 +47,11 @@ FrozenCookies.preferenceValues = {
     display: ["Auto Bulkbuy OFF", "Auto Bulkbuy x10", "Auto Bulkbuy x100"],
     default: 0,
   },
+  autoMaxBuy: {
+    hint: "Hit's buy all a couple of times at the start of reincarnation",
+    display: ["Auto MaxBuy OFF", "Auto MaxBuy ON"],
+    default: 0,
+  },
   autoBlacklistOff: {
     hint: "Automatically turn off a blacklist once the goal for that blacklist is achieved",
     display: ["Auto Blacklist OFF", "Auto Blacklist ON"],
