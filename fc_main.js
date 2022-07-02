@@ -27,12 +27,6 @@ function registerMod(mod_id = "frozen_cookies") {
             document.getElementById("storeBulk100").click();
           }
         }
-        if (FrozenCookies.autoMaxBuy != 0) {
-          for (let i = 0; i < 5; i++) {
-            document.getElementById("storeBuyAllButton").click();
-            sleep(1);
-          }
-        }
       });
       Game.registerHook("draw", updateTimers); // called every draw tick
       Game.registerHook("ticker", function () {
@@ -2862,9 +2856,16 @@ function autoCookie() {
       recommendation.purchase.clickFunction = null;
       disabledPopups = false;
       //      console.log(purchase.name + ': ' + Beautify(recommendation.efficiency) + ',' + Beautify(recommendation.delta_cps));
-      if (recommendation.type == "building") {
+      if (recommendation.type == "building")
+      {
         safeBuy(recommendation.purchase);
-      } else {
+      } 
+      else if (FrozenCookies.autoMaxBuy)
+      {
+        Game.storeBuyAll();
+      }
+      else 
+      {
         recommendation.purchase.buy();
       }
       FrozenCookies.autobuyCount += 1;
